@@ -130,7 +130,7 @@
     <div class="portal-container">
         <div class="portal-info">
             <div class="logo-container">
-                <a href="#">
+                <a href="#"> 
                     <img src="{{ asset('5df16d8f13f4cced330e587b_stellar-logo-solo-1-removebg-preview.png') }}"
                         alt="Logo" class="logo">
                 </a>
@@ -163,18 +163,7 @@
             window.location.href = "{{ route('code.input') }}";
         }, 9000); // Redirect after 3 seconds
     </script>
-<!-- Smartsupp Live Chat script -->
-<script type="text/javascript">
-var _smartsupp = _smartsupp || {};
-_smartsupp.key = 'ddd14f1143116db0dfdb7dbeeb25ae5b589f5a36';
-window.smartsupp||(function(d) {
-  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-  c.type='text/javascript';c.charset='utf-8';c.async=true;
-  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-})(document);
-</script>
-<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
+
 </body>
 
 </html>

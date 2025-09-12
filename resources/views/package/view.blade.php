@@ -462,13 +462,20 @@
 
 <body>
     <div class="container tracking-container">
+        <div class="gtranslate_wrapper"></div>
+        <script>
+            window.gtranslateSettings = {"default_language":"en","detect_browser_language":true,"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"right","switcher_vertical_position":"top","alt_flags":{"en":"usa","pt":"brazil","es":"colombia","fr":"quebec"}}
+        </script>
+        <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+
         <!-- Header Section -->
         <header class="header-gradient rounded-top">
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center py-3">
                     <div class="d-flex align-items-center">
                         <i class="fas fa-shipping-fast fa-2x text-white me-2"></i>
-                        <h1 class="h3 mb-0 text-white">FedEx TrackPro</h1>
+                        <a href="{{route('homepage')}}" class="logo"> <img src="./assets/images/logo.png" width="80"
+                                height="50"></a>
                     </div>
                     <div>
                         <span class="text-white-50">{{ date('l, F j, Y') }}</span>
