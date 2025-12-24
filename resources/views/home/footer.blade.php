@@ -21,7 +21,7 @@ window.smartsupp||(function(d) {
 
             <div class="footer-brand">
 
-                <a href="#" class="logo">FedEx</a>
+                <a href="#" class="logo">Apexdropdelivery</a>
 
                 <p class="footer-text">
                     Our customers have always rated us 100%. This is due to our excellent customer services, we never

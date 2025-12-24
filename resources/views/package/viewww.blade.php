@@ -714,7 +714,7 @@
             <div class="logo-container">
                 <div class="logo-placeholder">
                     <i class="fas fa-shipping-fast"></i>
-                    FedEx TrackPro
+                    Apexdropdelivery TrackPro
                 </div>
             </div>
         </div>
@@ -932,7 +932,7 @@
                                 </tr>
                                 <tr>
                                     <td><span class="detail-label">Carrier</span></td>
-                                    <td>FedEx Express</td>
+                                    <td>Apexdropdelivery Express</td>
                                 </tr>
                                 <tr>
                                     <td><span class="detail-label">Service</span></td>
